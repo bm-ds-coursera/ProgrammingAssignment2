@@ -3,9 +3,9 @@
 #  Example Usage:
 #    my_matrix <- matrix(c(1, 3, 2, 4), 2, 2))
 #    my_cached_matrix <- makeCacheMatrix(my_matrix)
-#    cacheSolve(my_cached_matrix)  # calculation occurs here
+#    s1 <- cacheSolve(my_cached_matrix)  # calculation occurs here
 #    foo <- do_other_things()
-#    cacheSolve(my_cached_matrix)  # will return cached data FTW!
+#    s2 <- cacheSolve(my_cached_matrix)  # will return cached data FTW!
 
 
 ## makeCacheMatrix
@@ -13,7 +13,7 @@
 #  Make a "cached" matrix for used with cachedSolve
 #
 #  Arguments
-#    x  initial value of matrix to use (defaults to emopty matrix)
+#    x  initial value of matrix to use (defaults to empty matrix)
 #
 #  Returns
 #    List of functions that will be used by cachedSolve
